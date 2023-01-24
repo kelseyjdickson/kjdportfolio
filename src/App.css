@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: lightblue;
+  background-color: beige;
 }
 body {
   font-size: 20px;
@@ -26,11 +26,32 @@ body {
 .nav-container{
   display:flex;
   justify-content: space-evenly;
-  background-color: white;
-  align-items: center;
+  align-items: center
 }
 
 .header-name{
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 5px;
+  color: lightpink;
+  
+}
+
+/* MAIN CONTAINER */
+.div-container{
+  display:flex;
+  width: auto;
+  height: 1000px;
+}
+.child {
+  flex: 1;
+}
+/* .main-container {
+  width: auto;
+  height: 1000px;
+  border-top: 3px solid white;
+} */
+
+.box1, .box2 {
+  border: 1px solid white;
+ 
 }
