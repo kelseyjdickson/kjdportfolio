@@ -1,6 +1,5 @@
 import React from "react";
 import flower from "../icons/flower.png";
-import pink from "../icons/flower-pink.png";
 
 const Nav = () => {
   return (
