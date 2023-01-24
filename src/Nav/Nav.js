@@ -7,7 +7,7 @@ const Nav = () => {
     <div className="nav-container">
       <img className="flower-power" alt="flower-icon" src={flower} />
       <h1 className="header-name">Kelsey Dickson</h1>
-      <img className="pink-flower" src={pink} alt="pink-flower" />
+      <img className="pink-flower" src={flower} alt="pink-flower" />
     </div>
   );
 };
