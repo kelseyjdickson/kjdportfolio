@@ -16,6 +16,10 @@ body {
   body {
     font-size: 16px;
   }
+  .nav-container{
+    background-color: lightpink;
+  }
+  
 }
 .flower-power, .pink-flower {
   width: 50px;
@@ -32,7 +36,7 @@ body {
 .header-name{
   font-family: 'Bebas Neue', cursive;
   letter-spacing: 5px;
-  color: lightpink;
+  color: white
   
 }
 
@@ -45,11 +49,6 @@ body {
 .child {
   flex: 1;
 }
-/* .main-container {
-  width: auto;
-  height: 1000px;
-  border-top: 3px solid white;
-} */
 
 .box1, .box2 {
   border: 1px solid white;
