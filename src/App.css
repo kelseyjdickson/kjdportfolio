@@ -11,46 +11,60 @@ body {
   }
 }
 
-
 @media only screen and (max-width: 450px) {
   body {
     font-size: 16px;
   }
-  .nav-container{
+  .nav-container {
     background-color: lightpink;
+    display: flex;
+    flex-direction: column;
   }
-  
 }
-.flower-power, .pink-flower {
+.flower-power,
+.pink-flower {
   width: 50px;
   height: 50px;
-
 }
 /* NAV */
-.nav-container{
-  display:flex;
+.nav-container {
+  display: flex;
   justify-content: space-evenly;
-  align-items: center
+  align-items: center;
 }
 
-.header-name{
-  font-family: 'Bebas Neue', cursive;
+.header-name {
+  font-family: "Bebas Neue", cursive;
   letter-spacing: 5px;
-  color: white
-  
+  color: white;
 }
 
 /* MAIN CONTAINER */
-.div-container{
-  display:flex;
+.div-container {
+  display: flex;
   width: auto;
-  height: 1000px;
+  height: 50px;
 }
 .child {
   flex: 1;
 }
 
-.box1, .box2 {
-  border: 1px solid white;
- 
+.box1 {
+  background-color: #e9da54;
+  height: 100px;
+  color: white;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.box2 {
+  color: white;
+  background-color: #e9da54;
+  height: 100px;
+  font-family: "Bebas Neue", sans-serif;
+}
+
+.box3 {
+  background-color: #e9da54;
+  font-family: "Bebas Neue", sans-serif;
+  color: white;
 }
