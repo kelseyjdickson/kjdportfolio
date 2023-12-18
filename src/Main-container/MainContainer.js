@@ -10,10 +10,6 @@ const MainContainer = () => {
           appreciate and recognize the power of cross-functional cooperation,
           and leveraging diverse skills to deliver successful outcomes.
         </div>
-        <div className="div-container">
-          <div className="child box1">PROJECT: Women In Tech</div>
-          <div className="child box2">Project: Pizza Store</div>
-        </div>
       </div>
     </>
   );
