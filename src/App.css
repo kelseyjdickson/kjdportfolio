@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: beige;
+  background-color: lightpink;
 }
 body {
   font-size: 20px;
@@ -10,20 +10,31 @@ body {
     font-size: 18px;
   }
   .nav-container {
-    background-color: lightpink;
+    background-color: beige;
     display: flex;
     flex-direction: column;
+  }
+
+  .happy {
+    width: 10px;
+    border-radius: 10px;
   }
 }
 
 @media only screen and (max-width: 450px) {
   body {
+    background-color: beige;
     font-size: 16px;
   }
   .nav-container {
-    background-color: lightpink;
     display: flex;
     flex-direction: column;
+  }
+
+  .happy {
+    width: 10px;
+    height: 250px;
+    border-radius: 10px;
   }
 }
 .flower-power,
@@ -64,6 +75,6 @@ body {
 
 /* About */
 .happy {
-  width: 200px;
+  width: 400px;
   border-radius: 10px;
 }
