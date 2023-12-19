@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       <h1>Hello</h1>
-      <img src={hg} alt="happygirl" />
+      <img className="happy" src={hg} alt="happygirl" />
     </div>
   );
 };
