@@ -1,5 +1,5 @@
 import React from "react";
-import hg from "../icons/happy-girl.jpeg";
+import hg from ".//happy-girl.jpeg";
 
 const About = () => {
   return (

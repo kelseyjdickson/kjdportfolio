@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-import flower from "../icons/flower.png";
+import flower from "../../../src/icons/flower.png";
 
 const Nav = () => {
   return (
