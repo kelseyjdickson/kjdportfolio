@@ -4,11 +4,11 @@ import hg from ".//happy-girl.jpeg";
 const About = () => {
   return (
     <div>
-      <h1>Hello</h1>
+      <h1 className="header-name">Hello</h1>
       <img className="happy" src={hg} alt="happygirl" />
       <div className="content">
-        <h2>I'm Kelsey.</h2>
-        <h3>
+        <h2 className="header-name">I'm Kelsey.</h2>
+        <h3 className="header-name">
           With two years of experience in software engineering, I am a
           passionate learner committed to continual growth. Armed with strong
           communication skills, I thrive on challenges and enjoy a dynamic, fun
