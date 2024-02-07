@@ -15,7 +15,14 @@ body {
     flex-direction: column;
   }
 
-  .happy {
+  .photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .happy,
+  .kelsey {
     width: 10px;
     border-radius: 10px;
   }
@@ -30,8 +37,14 @@ body {
     display: flex;
     flex-direction: column;
   }
+  .photo-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
 
-  .happy {
+  .happy,
+  .kelsey {
     width: 10px;
     height: 250px;
     border-radius: 10px;
@@ -74,7 +87,11 @@ body {
 }
 
 /* About */
-.happy {
+.photo-container {
+  display: flex;
+}
+.happy,
+.kelsey {
   width: 400px;
   border-radius: 10px;
 }

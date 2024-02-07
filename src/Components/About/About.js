@@ -1,11 +1,15 @@
 import React from "react";
 import hg from ".//happy-girl.jpeg";
+import kel from "./IMG_3949.jpg";
 
 const About = () => {
   return (
     <div>
       <h1 className="header-name">Hello</h1>
-      <img className="happy" src={hg} alt="happygirl" />
+      <div className="photo-container">
+        <img className="happy" src={hg} alt="happygirl" />
+        <img className="kelsey" src={kel} alt="profile of kelsey" />
+      </div>
       <div className="content">
         <h2 className="header-name">I'm Kelsey.</h2>
         <h3 className="header-name">
