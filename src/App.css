@@ -89,6 +89,7 @@ body {
 /* About */
 .photo-container {
   display: flex;
+  justify-content: space-around;
 }
 .happy,
 .kelsey {
